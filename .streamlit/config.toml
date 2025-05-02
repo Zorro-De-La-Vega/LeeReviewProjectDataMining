@@ -1,0 +1,23 @@
+[theme]
+# Custom theme for Miami Housing Impact Hub
+primaryColor = "#FF6B6B"  # Coral color that works well with Miami aesthetic
+backgroundColor = "#FFFFFF"  # Clean white background
+secondaryBackgroundColor = "#F0F2F6"  # Light gray for secondary elements
+textColor = "#262730"  # Dark gray for text
+font = "sans serif"  # Clean, modern font
+
+[server]
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200  # MB
+
+[browser]
+gatherUsageStats = false  # Privacy-focused setting
+
+[runner]
+# Performance optimizations
+magicEnabled = true
+fastReruns = true
+
+[logger]
+level = "info"

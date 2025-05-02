@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+
+# Large data files
+data/raw/
+data/temp/
+*.csv.bak
+*.csv.full.bak
+*.csv.complete.bak
+*.csv.price.bak
+*.csv.rental.bak
+*.csv.municipalities.bak
+*.csv.dupes.bak
+
+# Keep essential processed data
+!data/processed/miami_dade_merged_data.csv
+!data/processed/neighborhood_stats.csv
+!data/processed/airbnb/cleaned_airbnb.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumb.db
+
+# Embedded Git repositories
+LeeReviewProjectDataMining/
